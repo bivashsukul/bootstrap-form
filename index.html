@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+            <!-- Primary Meta Tags -->
+        <title>Demo project</title>
+        <meta name="title" content="Bivash Sukul">
+        <meta name="description" content="bivash sukul demo website">
+        
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="bivash sukul">
+        <meta property="og:title" content="Bivash Sukul">
+        <meta property="og:description" content="bivash sukul demo website">
+        <meta property="og:image" content="bivashsukul">
+        
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="bivash sukul">
+        <meta property="twitter:title" content="Bivash Sukul">
+        <meta property="twitter:description" content="bivash sukul demo website">
+        <meta property="twitter:image" content="bivashsukul">
+        
+        <!-- Optional Meta Tags -->
+        <meta name="keywords" content="tuyorial,html,css">
+        <meta name="robots" content="index, follow">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="language" content="english">
+        <meta name="revisit-after" content="1 days">
+        <meta name="author" content="bivash sukul">
+        <!-- font cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+        <!-- favicon link-->
+    <link rel="icon" href="images/baby.jpg">
+l
+    <!-- css links -->
+     <link rel="stylesheet" href="css/bootstrap.css">    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+  </head>
+  <body class="">
+    
+  <!-- action/method/required class/name/id/ must dite hobe-->
+ <div class="container">
+  <form action="#" method="get">
+    
+    <div class="row">
+      <div class="col-md-4">
+        <input type="text" class="form-control f_name" id="f_name" name="f_name" placeholder="first name" aria-label="First name" required>
+      </div>
+
+      <div class="col-md-4">
+        <input type="text" class="form-control l_name" id="l_name" name="l_name" placeholder="last name" aria-label="last name" required>
+      </div>
+
+      <div class="col-md-4">
+        <input type="text" class="form-control s_name" id="s_name" name="s_name" placeholder="username" aria-label="username" required>
+      </div>
+      
+
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="email1" class="form-label">Email address</label>
+          <input type="email" class="form-control email1" id="email1" name="email1" placeholder="Enter your Email" required>
+        </div>
+        <div class="col-md-6">
+          <label for="password" class="form-label">password</label>
+            <input type="password" class="form-control password" id="password" name="password" placeholder="Enter your password" required>
+        </div>
+        <div class="col-12">
+          <label for="address" class="form-label">Address</label>
+          <input type="text" class="form-control address" id="address" name="address">
+        </div>
+      
+        <div class="col-md-6">
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label">City</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">State</label>
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>...</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Check me out
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Sign in</button>
+        </div>
+      </form>
+
+    
+      </div>
+      
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+    <form class="row g-3 needs-validation" novalidate>
+      <div class="col-md-4">
+        <label for="validationCustom01" class="form-label">First name</label>
+        <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+      </div>
+      <div class="col-md-4">
+        <label for="validationCustom02" class="form-label">Last name</label>
+        <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+      </div>
+      <div class="col-md-4">
+        <label for="validationCustomUsername" class="form-label">Username</label>
+        <div class="input-group has-validation">
+          <span class="input-group-text" id="inputGroupPrepend">@</span>
+          <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+          <div class="invalid-feedback">
+            Please choose a username.
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <label for="validationCustom03" class="form-label">City</label>
+        <input type="text" class="form-control" id="validationCustom03" required>
+        <div class="invalid-feedback">
+          Please provide a valid city.
+        </div>
+      </div>
+      <div class="col-md-3">
+        <label for="validationCustom04" class="form-label">State</label>
+        <select class="form-select" id="validationCustom04" required>
+          <option selected disabled value="">Choose...</option>
+          <option>...</option>
+        </select>
+        <div class="invalid-feedback">
+          Please select a valid state.
+        </div>
+      </div>
+      <div class="col-md-3">
+        <label for="validationCustom05" class="form-label">Zip</label>
+        <input type="text" class="form-control" id="validationCustom05" required>
+        <div class="invalid-feedback">
+          Please provide a valid zip.
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+          <label class="form-check-label" for="invalidCheck">
+            Agree to terms and conditions
+          </label>
+          <div class="invalid-feedback">
+            You must agree before submitting.
+          </div>
+        </div>
+      </div>
+      <div class="col-12">
+        <button class="btn btn-primary" type="submit">Submit form</button>
+      </div>
+    </form>
+
+
+
+
+
+    <!-- amader -->
+     <label for="email_address">Email address :</label>
+     <input type="email" id="email_address" class="email_address" name="email_address" placeholder="Enter a valid email address" required>
+
+
+     <!-- bootstrap -->
+     <form>
+          <div class="mb-3">
+            <label for="email1" class="form-label">Email address</label>
+            <input type="email" class="form-control email1" id="email1" name="email1" placeholder="Enter your Email" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="password" class="form-label">password</label>
+            <input type="password" class="form-control password" id="password" name="password" placeholder="Enter your password" required>
+          </div>
+
+          <!-- floating email &password  start-->
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control email" id="email" name="email" placeholder="name@example.com" required>
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="form-floating">
+            <input type="password" class="form-control Password" id="Password" placeholder="Password" name="Password" required>
+            <label for="floatingPassword">Password</label>
+          </div>
+          <!-- floating email &password  start-->
+
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input check1" id="check1" name="check1">
+            <label class="form-check-label" for="check1">Check me out</label>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+          <input type="submit" class="btn btn-success" placeholder="disabled input"  required>
+          <input type="reset" class="btn btn-success" placeholder="disabled input" >
+
+         <!-- disabled -->
+          <div class="mb-3">
+            <label for="email1" class="form-label">disabled</label>
+            <input type="email" class="form-control email1" id="email1" name="email1" placeholder="Enter your Email" disabled>
+          </div>
+
+                                                                                                    <!--bukion attribut./disable/readonly -->
+          <!-- read only -->
+          <div class="mb-3">
+            <label for="email1" class="form-label">disabled</label>
+            <input type="email" class="form-control email1" id="email1" name="email1" placeholder="Enter your Email" readonly>
+          </div>
+
+          <!-- textarea -->
+
+          <div class="mb-3">
+            <label for="Textarea" class="form-label">Example textarea</label>
+            <textarea class="form-control Textarea" id="Textarea" name="Textarea"placeholder="Enter your message" rows="3" required></textarea>
+          </div>
+          
+          <!-- floating textarea -->
+
+          <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+            <label for="floatingTextarea">Comments</label>
+          </div>
+
+          <!-- input file -->
+
+          <div class="mb-3">
+            <label for="formFile" class="form-label">files input example</label>
+            <input class="form-control file" type="file" id="file" name="file">
+          </div>
+
+
+          <!-- datalist -->
+
+          <div class="mb-4">
+            <label for="dataList" class="form-label">Datalist example</label>
+              <input class="form-control dataList" list="datalistOptions" id="dataList" name="dataList" placeholder="Enter your class">
+              <datalist id="datalistOptions">
+                <option value="One" selected>
+                <option value="Two">
+                <option value="Three">
+                <option value="Four">
+                <option value="Five">
+              </datalist>
+          </div>
+
+
+          <!-- selected -->
+
+          <div class="mb-4">
+            <h3 class="small">select your iteam</h3>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Open this select menu</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+
+
+          <!-- checkbox -->
+
+          <div class="mb-4">
+            <h3 class="small">checkbox</h3>
+
+            <div class="form-check">
+              <label class="form-check-label" for="flexCheckDefault">
+              <input class="form-check-input checkbox" type="checkbox" value="" id="checkbox" menu="checkbox">
+                Default checkbox
+              </label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label" for="flexCheckChecked">
+              <input class="form-check-input checkbox" type="checkbox" value="" id="checkbox" menu="checkbox" checked>
+                Checked checkbox
+              </label>
+            </div>
+          </div>
+
+
+          <!-- dropdown menu -->
+           <p>Dropdown menu</p>
+            <div class="input-group mb-5">
+              <input type="text" class="form-control dropdown" id="dropdown" menu="dropdown" aria-label="Text input with dropdown button">
+              <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</button>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Separated link</a></li>
+              </ul>
+            </div>
+            
+
+    </form>
+  </form>
+ </div>
+
+
+
+
+
+
+    <!-- script links -->
+     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

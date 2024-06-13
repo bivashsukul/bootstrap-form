@@ -1,0 +1,14 @@
+.bk{
+    color: brown;
+    background-color: aqua;
+}
+.t-bolder{
+    font-weight: bolder;
+}
+a-img{
+    width: 100px;
+    height: 100px;
+}
+.about-me{
+    background-color: rgb(143, 150, 200);
+}
